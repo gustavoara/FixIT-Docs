@@ -1,9 +1,9 @@
 # Reset Group Policy / Resetar Políticas de Grupo no Windows
 
 ## 📌 Description / Descrição
-This script **removes all applied Group Policy settings** from a Windows computer and forces an update.  
+This command resets all applied Group Policy settings on a Windows computer by deleting cached policies and forcing an update.
 
-Este script **remove todas as Políticas de Grupo aplicadas** em um computador Windows e força uma atualização.
+Este comando redefine todas as configurações da Política de Grupo aplicadas em um computador Windows, excluindo políticas em cache e forçando uma atualização.
 
 ---
 
@@ -17,7 +17,7 @@ Este script **remove todas as Políticas de Grupo aplicadas** em um computador W
 ---
 
 ## 🔧 Commands:
-```cmd
+```
 DEL /S /F /Q “%ALLUSERSPROFILE%\Microsoft\Group Policy\History\*.*
 REG DELETE HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Group Policy /f
 REG DELETE HKLM\Software\Policies\Microsoft /f
@@ -29,3 +29,23 @@ DEL /F /Q C:\WINDOWS\security\Database\secedit.sdb
 klist purge
 gpupdate /force
 pause
+```
+
+---
+
+## ⚠️ Notes:
+- **Run CMD as Administrator** before executing the commands.
+- Restart the computer if Group Policy settings don’t update properly.
+- This action **removes all applied policies**, including security settings.
+
+---
+
+## 💡 When to use?
+- When **Group Policy settings are stuck** and not applying correctly.
+- If a **GPO is corrupted** and causing system issues.
+- To **reset Group Policy to default settings** before applying new policies.
+
+---
+
+## 🔍 Search Tags:
+Reset GPO, Group Policy not applying, delete Group Policy cache, force gpupdate, fix GPO issues, remove policies Windows
