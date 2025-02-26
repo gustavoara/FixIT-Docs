@@ -1,11 +1,13 @@
 # Identify Even Rows in Excel
 
-[![English](./assets/flags/enus.png)](#) [![Português](./assets/flags/ptbr.png)](#) [![Español](./assets/flags/es.png)](#)  
+[![English](./assets/flags/enus.png)](#english)  
+[![Português](./assets/flags/ptbr.png)](#portuguese)  
+[![Español](./assets/flags/es.png)](#spanish)  
 
 ---
 
-<details>
-  <summary>🇬🇧 English</summary>
+<details id="english">
+  <summary><img src="./assets/flags/enus.png" width="20"/> **English**</summary>
 
 ## 📌 Description
 This formula is used to check if a row is **even-numbered** in an Excel spreadsheet.
@@ -24,9 +26,9 @@ This formula is used to check if a row is **even-numbered** in an Excel spreadsh
 ### 2️⃣ Choose "Use a formula to determine which cells to format"
 - In the formula box, enter:
 
-```
+{{CMD}}  
 =MOD(LIN();2)=0  
-```
+{{CMD}}
 
 ### 3️⃣ Select the Formatting Style
 - Click **Format** and choose the desired background color or text style.
@@ -43,8 +45,8 @@ Excel even rows, highlight even rows, conditional formatting, alternate row shad
 
 ---
 
-<details>
-  <summary>🇧🇷 Português</summary>
+<details id="portuguese">
+  <summary><img src="./assets/flags/ptbr.png" width="20"/> **Português**</summary>
 
 ## 📌 Descrição
 Esta fórmula é usada para verificar se uma linha possui **numeração par** em uma planilha do Excel.
@@ -63,9 +65,9 @@ Esta fórmula é usada para verificar se uma linha possui **numeração par** em
 ### 2️⃣ Escolha "Usar uma fórmula para determinar quais células formatar"
 - Na caixa de fórmula, insira:
 
-```
+{{CMD}}  
 =MOD(LIN();2)=0  
-```
+{{CMD}}
 
 ### 3️⃣ Selecione o Estilo de Formatação
 - Clique em **Formatar** e escolha a cor de fundo ou estilo de texto desejado.
@@ -82,8 +84,8 @@ Excel linhas pares, destacar linhas pares, formatação condicional, sombreament
 
 ---
 
-<details>
-  <summary>🇪🇸 Español</summary>
+<details id="spanish">
+  <summary><img src="./assets/flags/es.png" width="20"/> **Español**</summary>
 
 ## 📌 Descripción
 Esta fórmula se usa para verificar si una fila tiene **numeración par** en una hoja de cálculo de Excel.
@@ -102,9 +104,9 @@ Esta fórmula se usa para verificar si una fila tiene **numeración par** en una
 ### 2️⃣ Elija "Usar una fórmula para determinar qué celdas formatear"
 - En el cuadro de fórmula, ingrese:
 
-```
+{{CMD}}  
 =MOD(LIN();2)=0  
-```
+{{CMD}}
 
 ### 3️⃣ Seleccione el Estilo de Formato
 - Haga clic en **Formato** y elija el color de fondo o estilo de texto deseado.
