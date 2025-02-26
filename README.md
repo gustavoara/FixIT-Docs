@@ -1,8 +1,7 @@
 # 🌍 FixIT-Docs
 
-[![English](https://flagcdn.com/w40/gb.png)](./README.md) 
-[![Português](https://flagcdn.com/w40/br.png)](./README.ptbr.md) 
-[![Español](https://flagcdn.com/w40/es.png)](./README.es.md)  
+**🌐 Select your language:**  
+🇬🇧 [English](./README.md) | 🇧🇷 [Português](./README.ptbr.md) | 🇪🇸 [Español](./README.es.md)  
 
 ---
 
