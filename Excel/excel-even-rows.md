@@ -1,21 +1,5 @@
 ### 🌍 Select a language below / Selecione um idioma abaixo / Seleccione un idioma abajo:
 
----
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll("details").forEach(function(detail) {
-        detail.addEventListener("click", function() {
-            document.querySelectorAll("details").forEach(function(otherDetail) {
-                if (otherDetail !== detail) {
-                    otherDetail.removeAttribute("open");
-                }
-            });
-        });
-    });
-});
-</script>
-
 <details>
   <summary><img src="../assets/flags/enus.png" width="28" align="absmiddle"/> English</summary>
 
@@ -38,9 +22,9 @@ This formula is used to check if a row is **even-numbered** in an Excel spreadsh
 ### 2️⃣ Choose "Use a formula to determine which cells to format"  
 - In the formula box, enter:  
 
-{{CMD}}  
+```
 =MOD(LIN();2)=0  
-{{CMD}}  
+```
 
 ### 3️⃣ Select the Formatting Style  
 - Click **Format** and choose the desired background color or text style.  
@@ -79,9 +63,9 @@ Esta fórmula é usada para verificar se uma linha possui **numeração par** em
 ### 2️⃣ Escolha "Usar uma fórmula para determinar quais células formatar"  
 - Na caixa de fórmula, insira:  
 
-{{CMD}}  
+```
 =MOD(LIN();2)=0  
-{{CMD}}  
+```
 
 ### 3️⃣ Selecione o Estilo de Formatação  
 - Clique em **Formatar** e escolha a cor de fundo ou estilo de texto desejado.  
@@ -120,9 +104,9 @@ Esta fórmula se usa para verificar si una fila tiene **numeración par** en una
 ### 2️⃣ Elija "Usar una fórmula para determinar qué celdas formatear"  
 - En el cuadro de fórmula, ingrese:  
 
-{{CMD}}  
+```
 =MOD(LIN();2)=0  
-{{CMD}}  
+```
 
 ### 3️⃣ Seleccione el Estilo de Formato  
 - Haga clic en **Formato** y elija el color de fondo o estilo de texto deseado.  
