@@ -1,13 +1,9 @@
 # Identify Even Rows in Excel
 
-[![English](./assets/flags/enus.png)](#english)  
-[![Português](./assets/flags/ptbr.png)](#portuguese)  
-[![Español](./assets/flags/es.png)](#spanish)  
-
 ---
 
-<details id="english">
-  <summary><img src="./assets/flags/enus.png" width="20"/> **English**</summary>
+<details>
+  <summary><img src="../assets/flags/enus.png" width="20"/> **English**</summary>
 
 ## 📌 Description
 This formula is used to check if a row is **even-numbered** in an Excel spreadsheet.
@@ -45,8 +41,8 @@ Excel even rows, highlight even rows, conditional formatting, alternate row shad
 
 ---
 
-<details id="portuguese">
-  <summary><img src="./assets/flags/ptbr.png" width="20"/> **Português**</summary>
+<details>
+  <summary><img src="../assets/flags/ptbr.png" width="20"/> **Português**</summary>
 
 ## 📌 Descrição
 Esta fórmula é usada para verificar se uma linha possui **numeração par** em uma planilha do Excel.
@@ -84,8 +80,8 @@ Excel linhas pares, destacar linhas pares, formatação condicional, sombreament
 
 ---
 
-<details id="spanish">
-  <summary><img src="./assets/flags/es.png" width="20"/> **Español**</summary>
+<details>
+  <summary><img src="../assets/flags/es.png" width="20"/> **Español**</summary>
 
 ## 📌 Descripción
 Esta fórmula se usa para verificar si una fila tiene **numeración par** en una hoja de cálculo de Excel.
