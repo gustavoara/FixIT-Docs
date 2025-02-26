@@ -1,5 +1,5 @@
 <br>
-### 🌍 Select a language below / Selecione um idioma abaixo / Seleccione un idioma abajo:
+<span style="font-size: 20px; font-weight: bold;">🌍 Select a language below / Selecione um idioma abaixo / Seleccione un idioma abajo:</span>
 <br>
 <details>
   <summary><img src="../assets/flags/enus.png" width="28" align="absmiddle"/> English</summary>
