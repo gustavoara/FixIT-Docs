@@ -1,6 +1,6 @@
----
+<br>
 ### 🌍 Select a language below / Selecione um idioma abaixo / Seleccione un idioma abajo:
-
+<br>
 <details>
   <summary><img src="../assets/flags/enus.png" width="28" align="absmiddle"/> English</summary>
 
@@ -11,27 +11,27 @@
 > It is particularly useful for **conditional formatting**, **filtering**, and **row-based calculations**.
 
 ## 🛠 Steps performed:
-✅ **Determines if a row is even using the formula.**  
-✅ **Applies it in conditional formatting to highlight even rows.**  
-✅ **Useful for filtering and alternating row-based calculations.**
+> ✅ **Determines if a row is even using the formula.**  
+> ✅ **Applies it in conditional formatting to highlight even rows.**  
+> ✅ **Useful for filtering and alternating row-based calculations.**
 
 ## ⚙️ Commands:
-{{CMD}}  
+```
 =MOD(LIN();2)=0  
-{{CMD}}
+```
 
 ## ⚠️ Notes:
-📌 **Returns TRUE for even rows** and **FALSE for odd rows**.  
-📌 Works well with **conditional formatting** to create alternating row shading.  
-📌 Ideal for **structured reports and data analysis**.
+> 📌 **Returns TRUE for even rows** and **FALSE for odd rows**.  
+> 📌 Works well with **conditional formatting** to create alternating row shading.  
+> 📌 Ideal for **structured reports and data analysis**.
 
 ## 💡 When to use?
-🔹 To **highlight even-numbered rows** for better readability.  
-🔹 For **conditional formatting** in large datasets.  
-🔹 To **filter or analyze row-based data structures**.
+> 🔹 To **highlight even-numbered rows** for better readability.  
+> 🔹 For **conditional formatting** in large datasets.  
+> 🔹 To **filter or analyze row-based data structures**.
 
 ## 🔍 Search Tags:
-Excel even rows, highlight even rows, conditional formatting, alternate row shading, Excel MOD function, filter even rows  
+> Excel even rows, highlight even rows, conditional formatting, alternate row shading, Excel MOD function, filter even rows  
 
 </details>
 
