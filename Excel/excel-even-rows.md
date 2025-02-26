@@ -1,11 +1,23 @@
-# Identify Even Rows in Excel
-
 ### 🌍 Select a language below / Selecione um idioma abaixo / Seleccione un idioma abajo:
 
 ---
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("details").forEach(function(detail) {
+        detail.addEventListener("click", function() {
+            document.querySelectorAll("details").forEach(function(otherDetail) {
+                if (otherDetail !== detail) {
+                    otherDetail.removeAttribute("open");
+                }
+            });
+        });
+    });
+});
+</script>
+
 <details>
-  <summary><img src="../assets/flags/enus.png" width="20" align="absmiddle"/> English</summary>
+  <summary><img src="../assets/flags/enus.png" width="28" align="absmiddle"/> English</summary>
 
 # Identify Even Rows in Excel  
 
@@ -46,7 +58,7 @@ Excel even rows, highlight even rows, conditional formatting, alternate row shad
 ---
 
 <details>
-  <summary><img src="../assets/flags/ptbr.png" width="20" align="absmiddle"/> Português</summary>
+  <summary><img src="../assets/flags/ptbr.png" width="28" align="absmiddle"/> Português</summary>
 
 # Identificar Linhas Pares no Excel  
 
@@ -87,7 +99,7 @@ Excel linhas pares, destacar linhas pares, formatação condicional, sombreament
 ---
 
 <details>
-  <summary><img src="../assets/flags/es.png" width="20" align="absmiddle"/> Español</summary>
+  <summary><img src="../assets/flags/es.png" width="28" align="absmiddle"/> Español</summary>
 
 # Identificar Filas Pares en Excel  
 
