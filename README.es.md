@@ -1,7 +1,7 @@
 # 🌍 FixIT-Docs
 
 **🌐 Seleccione su idioma:**  
-🇬🇧 [English](./README.md) | 🇧🇷 [Português](./README.ptbr.md) | 🇪🇸 [Español](./README.es.md)  
+[![English](./assets/flags/enus.png)](./README.md) | [![Português](./assets/flags/ptbr.png)](./README.ptbr.md) | [![Español](./assets/flags/es.png)](./README.es.md)
 
 ---
 
