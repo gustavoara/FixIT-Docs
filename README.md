@@ -1,7 +1,7 @@
 # 🌍 FixIT-Docs
 
-[![English](https://flagcdn.com/w40/gb.png)](./README.md)  
-[![Português](https://flagcdn.com/w40/br.png)](./README.ptbr.md)  
+[![English](https://flagcdn.com/w40/gb.png)](./README.md) 
+[![Português](https://flagcdn.com/w40/br.png)](./README.ptbr.md) 
 [![Español](https://flagcdn.com/w40/es.png)](./README.es.md)  
 
 ---
@@ -14,22 +14,23 @@ This repository aims to centralize useful technical solutions in an organized an
 
 ## 📂 Categories  
 
-### 🔹 Windows
-- [Reset Group Policy](./reset-group-policy.md) - Reset all Group Policy settings.
-- [Show Hidden Files](./show-hidden-files.md) - Remove hidden attributes from files and folders.
-- [Enable UAC Shortcut](./enable-uac-shortcut.md) - Create a shortcut to restore UAC.
-- [Fix TPM 80090030](./fix-tpm-80090030.md) - Resolve Trusted Platform Module authentication error.
+### 🖥️ Windows
+- [Reset Group Policy](./Windows/reset-group-policy.md) - Reset all Group Policy settings.
+- [Show Hidden Files](./Windows/show-hidden-files.md) - Remove hidden attributes from files and folders.
+- [Enable UAC Shortcut](./Windows/enable-uac-shortcut.md) - Create a shortcut to restore UAC.
+- [Fix TPM 80090030](./Windows/fix-tpm-80090030.md) - Resolve Trusted Platform Module authentication error.
+- [Fix CredSSP RDP](./Windows/fix-credssp-rdp.md) - Resolve CredSSP error when connecting via RDP.
+- [Delete EXE and Clean Up Directory](./Windows/delete-exe-cleanup.md) - Remove an executable and delete its folder if not in use.
+- [List AD Group Users](./Windows/list-ad-group-users.md) - Retrieve users from a specific AD group.
 
-### 🔹 Networking
-- [Continuous Ping with Timestamp](./continuous-ping-log.md) - Monitor connectivity with date/time logs.
+### 🖥️ PowerShell
+- [Continuous Ping with Timestamp](./Powershell/continuous-ping-log.md) - Monitor connectivity with date/time logs.
+- [Convert RTF to Text](./Powershell/convert-rtf-text.md) - Extract plain text from RTF using PowerShell.
+- [Convert User to SID](./Powershell/convert-user-sid.md) - Get the SID of a user or convert a SID back to a username.
+- [Collect Printer Data via SNMP](./Powershell/snmp-printer-inventory.md) - Scan network printers and log model, serial, and page count.
 
-### 🔹 Active Directory
-- [List AD Group Users](./list-ad-group-users.md) - Retrieve users from a specific AD group.
-
-### 🔹 Scripting & Automation
-- [Convert RTF to Text](./convert-rtf-text.md) - Extract plain text from RTF using PowerShell.
-- [Delete EXE and Clean Up Directory](./delete-exe-cleanup.md) - Remove an executable and delete its folder if not in use.
-- [Collect Printer Data via SNMP](./snmp-printer-inventory.md) - Scan network printers and log model, serial, and page count.
+### 📊 Excel
+- [Highlight Even Rows](./Excel/excel-even-rows.md) - Use conditional formatting to highlight even rows in Excel.
 
 ---
 
